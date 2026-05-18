@@ -41,19 +41,24 @@ export default function Home() {
           lineHeight: 1.7,
         }}
       >
-        Uses{" "}
-        <code
-          style={{
-            fontFamily: "var(--font-mono)",
-            background: "var(--bg-secondary)",
-            padding: "1px 5px",
-            borderRadius: 4,
-            fontSize: 11,
-          }}
-        >
-          crypto.getRandomValues()
-        </code>{" "}
-        — no server, no tracking.
+        <div>
+          Uses{" "}
+          <code
+            style={{
+              fontFamily: "var(--font-mono)",
+              background: "var(--bg-secondary)",
+              padding: "1px 5px",
+              borderRadius: 4,
+              fontSize: 11,
+            }}
+          >
+            crypto.getRandomValues()
+          </code>{" "}
+          — no server, no tracking.
+        </div>
+        <div>
+          Copyright &copy; 2026 Ruslan Huzii. MIT License.
+        </div>
       </footer>
     </main>
   );
